@@ -1,0 +1,286 @@
+<mxfile host="65bd71144e">
+    <diagram name="LibrarySystemDetailed" id="0">
+        <mxGraphModel dx="1258" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 14px;&quot;&gt;图书信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 14px;&quot;&gt;管理系统&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="60" y="40" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="init_load" value="加载数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="110" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="menu" value="显示主菜单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="180" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="input_choice" value="输入选项" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="250" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="start" target="init_load" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="init_load" target="menu" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="menu" target="input_choice" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_add" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;录入&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="330" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_browse" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;浏览&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="380" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_search" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;查询&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="430" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_sort" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;图书&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;排序&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="480" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_delete" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;删除&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="530" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_modify" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;信息&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;修改&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="580" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_file" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;数据&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;保存&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="630" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d_exit" value="退出?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1084" y="710" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_c1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;" parent="1" source="input_choice" target="d_add" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_n1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_add" target="d_browse" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n2" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_browse" target="d_search" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n3" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_search" target="d_sort" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_sort" target="d_delete" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n5" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_delete" target="d_modify" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n6" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_modify" target="d_file" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_n7" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="d_file" target="d_exit" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_add" value="输入图书信息&#xa;检查重复ID&#xa;存入数组" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="500" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yes_add" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d_add" target="p_add" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_browse" value="打印表头&#xa;遍历数组输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="500" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yes_browse" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d_browse" target="p_browse" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_search_title" value="按书名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="530" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_search_author" value="按作者" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="530" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_search_title" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="511" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="511" as="sourcePoint"/>
+                        <mxPoint x="429.95" y="530" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="511"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p_sort_cat" value="按分类" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="580" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_sort_year" value="按年份" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="580" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_sort_price" value="按价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="580" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_sort1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_sort_cat" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="644" y="555" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="532" y="555"/>
+                            <mxPoint x="515" y="555"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_sort2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_sort_year" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="586" y="555" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="580" y="555"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_sort3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_sort_price" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="635" y="555" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="640" y="555"/>
+                            <mxPoint x="645" y="555"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p_delete" value="输入ID查找&#xa;前移数组元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="630" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yes_delete" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d_delete" target="p_delete" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_modify" value="输入ID查找&#xa;输入新字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="680" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yes_modify" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d_modify" target="p_modify" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_save" value="保存JSON" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="720" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p_open" value="打开文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="720" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_save" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="962" y="705" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;" parent="1" target="p_open" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="961" y="705" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="end" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="423" y="849" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yes_exit" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d_exit" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="loop_line" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="780" as="sourcePoint"/>
+                        <mxPoint x="1040" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join1" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_add" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join2" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_browse" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join3a" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_search_title" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join3b" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_search_author" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join4a" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_sort_cat" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="515" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join4b" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_sort_year" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join4c" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_sort_price" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="645" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join5" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_delete" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="740" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join6" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_modify" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join7a" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_save" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="join7b" style="endArrow=none;html=1;entryX=0.5;entryY=1;" parent="1" source="p_open" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1040" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="return_arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;" parent="1" target="menu" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="780" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="780"/>
+                            <mxPoint x="30" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="d_search">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="511" as="sourcePoint"/>
+                        <mxPoint x="435" y="494" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5">
+                    <mxGeometry x="0.2043" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="d_sort">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="555" as="sourcePoint"/>
+                        <mxPoint x="610" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="0.2419" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="d_file">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1000" y="705" as="sourcePoint"/>
+                        <mxPoint x="1031" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="0.2419" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "C程序设计语言",
+      "author": "Brian W.Kernighan",
+      "category": "TP312",
+      "publisher": "机械工业出版社",
+      "year": 2019,
+      "price": 69.00
+    },
+    {
+      "id": 2,
+      "title": "数据结构与算法分析",
+      "author": "Mark Allen Weiss",
+      "category": "TP301",
+      "publisher": "人民邮电出版社",
+      "year": 2020,
+      "price": 79.00
+    },
+    {
+      "id": 3,
+      "title": "深入理解计算机系统",
+      "author": "Randal E.Bryant",
+      "category": "TP303",
+      "publisher": "机械工业出版社",
+      "year": 2021,
+      "price": 139.00
+    },
+    {
+      "id": 4,
+      "title": "算法导论",
+      "author": "Thomas H.Cormen",
+      "category": "TP301",
+      "publisher": "机械工业出版社",
+      "year": 2018,
+      "price": 128.00
+    },
+    {
+      "id": 5,
+      "title": "计算机网络",
+      "author": "谢希仁",
+      "category": "TP393",
+      "publisher": "电子工业出版社",
+      "year": 2022,
+      "price": 59.00
+    },
+    {
+      "id": 6,
+      "title": "三国演义",
+      "author": "罗贯中",
+      "category": "TP388",
+      "publisher": "人民出版社",
+      "year": 2017,
+      "price": 60.00
+    }
+  ]
+}
