@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Administrator/Desktop/Library Information Management System",
-      "program": "c:/Users/Administrator/Desktop/Library Information Management System/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/Documents/GitHub/Library-Information-Management-System",
+      "program": "c:/Users/Administrator/Documents/GitHub/Library-Information-Management-System/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
